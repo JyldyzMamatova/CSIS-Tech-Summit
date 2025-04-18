@@ -2043,3 +2043,18 @@ section {
 .footer .credits a {
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+# Fix Speaker Images to Consistent Circle
+--------------------------------------------------------------*/
+.speaker-img {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 20px auto;
+  display: block;
+}
+
