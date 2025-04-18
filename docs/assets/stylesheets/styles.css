@@ -2062,3 +2062,19 @@ section {
   display: block;
 }
 
+.linkedin-link {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s ease;
+}
+
+.linkedin-link:hover {
+  color: #0077b5; /* LinkedIn blue */
+}
+
+.linkedin-link:focus,
+.linkedin-link:active {
+  color: #f85a40; /* Your theme's primary color */
+}
+
+
